@@ -1,0 +1,53 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* NavBar */
+#nav {
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+
+/* Main ID's */
+#home {
+    font-family: Georgia, serif;
+}
+#portfolio {
+    font-family: Georgia, serif;
+}
+#contact {
+    font-family: Georgia, serif;
+}
+
+/* Form */
+form label {
+    display: block;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    color: #363636;
+    margin: 0 0 1em 0;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+    -webkit-appearance: none;
+    border: 0;
+    background: #f4f4f4;
+    padding: 0.75em;
+    width: 100%;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+    -ms-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+}
+
+    form input[type="text"]:focus,
+    form input[type="email"]:focus,
+    form input[type="password"]:focus,
+    form select:focus,
+    form textarea:focus {
+        background: #f8f8f8;
+    }
