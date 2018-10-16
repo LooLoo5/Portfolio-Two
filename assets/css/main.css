@@ -1,5 +1,19 @@
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
+
+body {
+    background-color: #23141f;
+    background-attachment: scroll,							fixed;
+    background-image: url("images/overlay1.png"), url("../../images/bg.jpg");
+    background-position: top left,						top center;
+    background-repeat: repeat,							no-repeat;
+    background-size: auto,							cover;
+}
+
+body, input, select, textarea {
+    color: #a2a2a2;
+    font-family: Georgia, "Lato", Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight: 300;
+    line-height: 1.75em;
 }
 
 /* NavBar */
@@ -8,16 +22,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     font-family: Georgia, serif;
 }
 
-/* Main ID's */
-#home {
-    font-family: Georgia, serif;
+/* container */
+.container {
+    display: box;
+    margin-left: auto;
+    margin-right: auto;
 }
-#portfolio {
-    font-family: Georgia, serif;
-}
-#contact {
-    font-family: Georgia, serif;
-}
+
+
 
 /* Form */
 form label {
@@ -28,7 +40,7 @@ form label {
     margin: 0 0 1em 0;
 }
 
-form input[type="text"],
+/* form input[type="text"],
 form input[type="email"],
 form input[type="password"],
 form select,
@@ -50,4 +62,4 @@ form textarea {
     form select:focus,
     form textarea:focus {
         background: #f8f8f8;
-    }
+    } */
